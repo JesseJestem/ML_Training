@@ -1,32 +1,30 @@
-# Logistic Regression
+# Linear Regression
 
-This project focuses on Logistic Regression for binary classification.
+This project focuses on understanding and implementing Linear Regression.
 
-The goal is to understand how a model can classify data into two classes using a sigmoid function and a decision boundary.
+The goal is to learn how a model can predict continuous values by finding the relationship between input features and target values.
 
 ## Purpose
 
-The purpose of this project is to learn the basic structure of classification models and understand how Logistic Regression works internally.
+The purpose of this project is to understand the basic workflow of supervised machine learning:
 
-This includes:
-
-- calculating the linear combination of features and parameters;
-- applying the sigmoid function;
-- computing the logistic cost function;
-- updating parameters;
-- understanding decision boundaries;
-- applying regularization to reduce overfitting.
+- preparing training data;
+- defining a prediction function;
+- calculating the cost;
+- updating parameters with gradient descent;
+- visualizing the result;
+- understanding how feature scaling and polynomial features affect model performance.
 
 ## Main Concepts
 
-- Logistic Regression
-- Binary Classification
-- Sigmoid Function
-- Decision Boundary
+- Linear Regression
 - Cost Function
 - Gradient Descent
-- Regularization
-- Overfitting
+- Learning Rate
+- Feature Scaling
+- Polynomial Regression
+- Model Prediction
+- Visualization
 
 ## Technologies Used
 
@@ -39,18 +37,17 @@ This includes:
 
 In this project, I practiced:
 
-- implementing logistic regression logic;
-- using the sigmoid function;
-- calculating the logistic loss;
-- training a model with and without regularization;
-- visualizing classification results;
-- understanding how regularization affects model complexity.
+- implementing prediction logic;
+- calculating the cost function;
+- updating parameters using gradient descent;
+- comparing simple linear regression and polynomial regression;
+- visualizing model behavior and predictions.
 
 ## Learning Points
 
-Through this project, I learned how Logistic Regression extends the idea of Linear Regression to classification problems.
+Through this project, I learned that Linear Regression is not only about fitting a line to data, but also about understanding how parameters are updated to minimize the cost function.
 
-I also learned why the sigmoid function is used, how decision boundaries are created, and how regularization helps reduce overfitting.
+I also learned that feature scaling and learning rate selection are important for stable and efficient gradient descent.
 
 ## How to Run
 
@@ -58,4 +55,4 @@ From the root directory of the repository:
 
 ```bash
 pip install -r requirements.txt
-python Python_ml/logistic_regression/logistic_regression_from_scratch.py
+python Python_ml/linear_regression/linear_regression_from_scratch.py

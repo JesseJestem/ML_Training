@@ -59,3 +59,5 @@ From the root directory of the repository:
 ```bash
 pip install -r requirements.txt
 python Python_ml/logistic_regression/logistic_regression_from_scratch.py
+python Python_ml/logistic_regression/logistic_regression_sklearn.py
+python Python_ml/logistic_regression/regularized_logistic_regression.py

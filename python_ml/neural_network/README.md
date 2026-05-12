@@ -1,41 +1,61 @@
-# Coffee Roasting Neural Network: NumPy and TensorFlow
+# Neural Network Basics
 
-## Project Overview
+This project focuses on the basics of neural networks.
 
-This project demonstrates two simple neural network implementations for binary classification.
+The goal is to understand how neurons, layers, activation functions, and forward propagation work.
 
-The task is to predict whether a coffee roast is good or bad based on two input features:
+## Purpose
 
-- temperature;
-- roasting duration.
+The purpose of this project is to understand the basic structure of neural networks before moving to more advanced deep learning topics.
 
-The project contains two versions:
+This project focuses on:
 
-1. Neural Network From Scratch With NumPy
-2. Neural Network Using TensorFlow/Keras
+- how neurons receive inputs;
+- how weights and biases are used;
+- how activation functions affect the output;
+- how layers are connected;
+- how TensorFlow/Keras can be used to build simple neural networks.
 
-The main goal is to compare a manual neural network implementation with a framework-based implementation.
+## Main Concepts
 
-The NumPy version helps understand how a neural network works internally.
-
-The TensorFlow version shows how the same type of model can be built and trained using a machine learning framework.
-
----
+- Neuron
+- Dense Layer
+- Weights and Biases
+- Matrix Multiplication
+- Forward Propagation
+- Activation Functions
+- Sigmoid
+- ReLU
+- TensorFlow/Keras
 
 ## Technologies Used
 
 - Python
 - NumPy
-- Matplotlib
 - TensorFlow
-- Keras
+- Matplotlib
 
----
+## What I Implemented
 
-## Dataset
+In this project, I practiced:
 
-The dataset contains coffee roasting examples.
+- building a simple neural network with NumPy;
+- understanding matrix multiplication in neural networks;
+- using activation functions;
+- building a basic neural network with TensorFlow/Keras;
+- comparing manual logic with library-based implementation.
 
-Each training example has two input features:
+## Learning Points
 
-X = [temperature, duration]
+Through this project, I learned that neural networks are built from simple mathematical operations repeated across layers.
+
+I also learned why matrix multiplication is important, how activation functions help models learn non-linear patterns, and how TensorFlow simplifies neural network implementation.
+
+## How to Run
+
+From the root directory of the repository:
+
+```bash
+pip install -r requirements.txt
+python Python_ml/neural_network/coffee_nn_numpy.py
+python Python_ml/neural_network/coffee_nn_tensorflow.py

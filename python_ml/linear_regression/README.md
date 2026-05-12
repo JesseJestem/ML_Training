@@ -1,28 +1,61 @@
-# Simple Rain Probability Prediction Based on Humidity
+# Logistic Regression
 
-## Project Overview
+This project focuses on Logistic Regression for binary classification.
 
-This project is a simple machine learning exercise that predicts the probability of rain based on humidity level.
+The goal is to understand how a model can classify data into two classes using a sigmoid function and a decision boundary.
 
-The main goal of this project is not to build a production-ready weather prediction model, but to practice the core ideas of machine learning:
+## Purpose
 
-- preparing training data;
-- normalizing input values;
-- creating polynomial features;
-- implementing the cost function manually;
-- implementing gradient descent manually;
-- visualizing the trained model with Matplotlib.
+The purpose of this project is to learn the basic structure of classification models and understand how Logistic Regression works internally.
 
-I used humidity as the input feature because it is intuitive, easy to understand, and makes it easier to track possible mistakes in the code.
+This includes:
 
----
+- calculating the linear combination of features and parameters;
+- applying the sigmoid function;
+- computing the logistic cost function;
+- updating parameters;
+- understanding decision boundaries;
+- applying regularization to reduce overfitting.
 
-## What the Model Does
+## Main Concepts
 
-The model takes humidity values as input and predicts a rain probability value between `0` and `1`.
+- Logistic Regression
+- Binary Classification
+- Sigmoid Function
+- Decision Boundary
+- Cost Function
+- Gradient Descent
+- Regularization
+- Overfitting
 
-Example interpretation:
+## Technologies Used
 
-Humidity: 20%  -> low rain probability
-Humidity: 75%  -> higher rain probability
-Humidity: 95%  -> very high rain probability
+- Python
+- NumPy
+- Matplotlib
+- scikit-learn
+
+## What I Implemented
+
+In this project, I practiced:
+
+- implementing logistic regression logic;
+- using the sigmoid function;
+- calculating the logistic loss;
+- training a model with and without regularization;
+- visualizing classification results;
+- understanding how regularization affects model complexity.
+
+## Learning Points
+
+Through this project, I learned how Logistic Regression extends the idea of Linear Regression to classification problems.
+
+I also learned why the sigmoid function is used, how decision boundaries are created, and how regularization helps reduce overfitting.
+
+## How to Run
+
+From the root directory of the repository:
+
+```bash
+pip install -r requirements.txt
+python Python_ml/logistic_regression/logistic_regression_from_scratch.py

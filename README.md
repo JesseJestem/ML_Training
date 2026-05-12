@@ -38,6 +38,7 @@ I am currently studying machine learning with a focus on Python, NumPy, scikit-l
 - scikit-learn
 - TensorFlow
 - Keras
+- Git / GitHub
 
 ---
 
@@ -77,6 +78,16 @@ I want to combine machine learning knowledge with software engineering skills to
 These projects are learning-focused and intentionally simple.
 
 The purpose is not to create production-ready systems, but to understand machine learning concepts step by step through implementation.
+
+## Repository Structure
+
+ML_Training/
+├── Python_ml/
+│   ├── linear_regression/
+│   ├── logistic_regression/
+│   └── neural_network/
+├── requirements.txt
+└── README.md
 _____________________________________________________
 # ML Training Portfolio
 
@@ -118,6 +129,7 @@ _____________________________________________________
 - scikit-learn
 - TensorFlow
 - Keras
+- Git / GitHub
 
 ---
 
@@ -157,3 +169,13 @@ _____________________________________________________
 このリポジトリのプロジェクトは学習目的で作成されています。
 
 本番環境向けの完成されたシステムではなく、機械学習の基本概念を実装を通して一つずつ理解することを目的としています。
+
+## リポジトリ構造
+
+ML_Training/
+├── Python_ml/
+│   ├── linear_regression/
+│   ├── logistic_regression/
+│   └── neural_network/
+├── requirements.txt
+└── README.md
